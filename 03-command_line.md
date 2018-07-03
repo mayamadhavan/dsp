@@ -20,7 +20,7 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > pwd, mkdir dirname, rm -r, touch filename, rm filname.ext, mv file1 file2, ls -A, cp filename new_directory_name
 
 ---
 
@@ -36,11 +36,17 @@ What do the following commands do:
 `ls -Glp`  
 
 > > 'ls' lists all the files in the current directory
+
 > > 'ls -a' displays all files, including hidden giles
+
 > > 'ls -l' displays the files in long format listing, with permissions
+
 > > 'ls -lh' lists the long format in a readable file size
+
 > > 'ls -lah' does long format listing for all entries in a readable size
+
 > > 'ls -t' lists the files with the newest first
+
 > > 'ls -Glp' color codes the output of entries printed in long format without owner info
 
 ---
@@ -50,9 +56,13 @@ What do the following commands do:
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
 > > 'ls -R' displays subdirectories
+
 > > 'ls -u' gives files by access time
+
 > > 'ls -x' gives files as rows across the sreen
+
 > > 'ls -laR'
+
 > > 'ls -m'
 
 ---
@@ -62,6 +72,7 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 What does `xargs` do? Give an example of how to use it.
 
 > > xargs reads the data from standard inputs and performs commands given by arguments
+
 > > 'echo 'hi' | xargs mkdir' creates a folder named hi in the directory
 
  
