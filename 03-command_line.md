@@ -35,7 +35,13 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > 'ls' lists all the files in the current directory
+> > 'ls -a' displays all files, including hidden giles
+> > 'ls -l' displays the files in long format listing, with permissions
+> > 'ls -lh' lists the long format in a readable file size
+> > 'ls -lah' does long format listing for all entries in a readable size
+> > 'ls -t' lists the files with the newest first
+> > 'ls -Glp' color codes the output of entries printed in long format without owner info
 
 ---
 
@@ -43,7 +49,11 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > 'ls -R' displays subdirectories
+> > 'ls -u' gives files by access time
+> > 'ls -x' gives files as rows across the sreen
+> > 'ls -laR'
+> > 'ls -m'
 
 ---
 
@@ -51,7 +61,8 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > xargs reads the data from standard inputs and performs commands given by arguments
+> > 'echo 'hi' | xargs mkdir' creates a folder named hi in the directory
 
  
 
